@@ -1,0 +1,1 @@
+Selected Measure Name = SELECTEDVALUE('Measure Selection'[Name])

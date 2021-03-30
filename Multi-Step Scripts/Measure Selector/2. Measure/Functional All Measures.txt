@@ -1,0 +1,8 @@
+Functional All Measures = 
+SWITCH(
+[Selected Measure Code],
+0,[_CalculationForSuccessful],
+1,[_CalculationForQueued]
+)
+
+// where _CalculationForSuccessful and _CalculationForQueued are additional measures created to calculate the results which should be switched between
