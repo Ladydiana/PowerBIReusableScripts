@@ -1,0 +1,4 @@
+let
+    Source = DateTimeZone.FixedUtcNow()
+in
+    Source

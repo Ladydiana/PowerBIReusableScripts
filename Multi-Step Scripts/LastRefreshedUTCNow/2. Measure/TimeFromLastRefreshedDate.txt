@@ -1,0 +1,12 @@
+TimeFromLastRefreshedDate = 
+var TimeDiff = ABS(DATEDIFF(UTCNOW(),MAX(LastRefreshedUTCNow[LastRefreshedUTCNow]), SECOND))
+var TimeMin = ROUNDDOWN(DIVIDE(TimeDiff,60),0)
+var TimeHour = ROUNDDOWN(DIVIDE(TimeDiff,60*60),0)
+var TimeDay = ROUNDDOWN(DIVIDE(TimeDiff,60*60*24),0) 
+var TimeFormat = SWITCH( TRUE(), 
+    TimeDiff<60, TimeDiff & " seconds ago",
+    TimeDiff<3600,  IF(TimeMin = 1, TimeMin & " minute ago", TimeMin & " minutes ago"),
+    TimeDiff<86400, IF(TimeHour = 1, TimeHour & " hour ago", TimeHour & " hours ago"),
+    IF(TimeDay = 1, TimeDay & " day ago", TimeDay & " days ago")
+)
+return "Last Refresh: " & TimeFormat

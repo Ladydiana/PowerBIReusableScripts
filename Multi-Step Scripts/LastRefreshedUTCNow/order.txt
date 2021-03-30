@@ -1,0 +1,2 @@
+1. Create the Power Query Script. Close & Apply.
+2. Create DAX measure(s).
