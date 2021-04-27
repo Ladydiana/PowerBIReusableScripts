@@ -1,0 +1,5 @@
+Dates =
+CALENDAR (
+    DATE ( YEAR ( MIN ( Sales[Order Date] ) ), 1, 1 ),
+    DATE ( YEAR ( MIN ( Sales[Order Date] ) ), 12, 31 )
+)
