@@ -1,5 +1,7 @@
 TimeFromLastRefreshedDate = 
 var TimeDiff = ABS(DATEDIFF(UTCNOW(),MAX(LastRefreshedUTCNow[LastRefreshedUTCNow]), SECOND))
+// or use this for max date in case this is coming from a table, in order to not be impacted by any filters:
+// MAXX(ALL(LastRefreshedUTCNow[LastRefreshedUTCNow]), OPENTEXT_AGGREGATION[LastRefreshedUTCNow[LastRefreshedUTCNow])
 var TimeMin = ROUNDDOWN(DIVIDE(TimeDiff,60),0)
 var TimeHour = ROUNDDOWN(DIVIDE(TimeDiff,60*60),0)
 var TimeDay = ROUNDDOWN(DIVIDE(TimeDiff,60*60*24),0) 
