@@ -5,6 +5,7 @@
 - [Calendar](#calendar)
     + [M Generated Calendar](#m-generated-calendar)
 	+ [Contiguous Calendar From Source](#contiguous-calendar-from-source)
+	+ [Automated Calendar](#automated-calendar)
 
 
 -------------------------------------------------
@@ -104,4 +105,12 @@ CALENDAR (
     DATE ( YEAR ( MIN ( Sales[Order Date] ) ), 1, 1 ),
     DATE ( YEAR ( MIN ( Sales[Order Date] ) ), 12, 31 )
 )
+```
+
+### Automated Calendar
+```
+// DAX
+// Returns a table with a single column named "Date" that contains a contiguous set of dates. 
+// The range of dates is calculated automatically based on data in the model
+Automated Calendar = CALENDARAUTO()
 ```
