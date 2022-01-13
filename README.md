@@ -4,6 +4,7 @@
 - [DAX Studio - Get all measures](#dax-studio---get-all-measures)
 - [Calendar](#calendar)
     + [M Generated Calendar](#m-generated-calendar)
+	+ [Contiguous Calendar From Source](#contiguous-calendar-from-source)
 
 
 -------------------------------------------------
@@ -23,7 +24,7 @@ WHERE MEASURE_IS_VISIBLE
 
 # Calendar
 ### M Generated Calendar
-```mumps
+```
 let
     Source = #"Script to generate calendar"(Date.StartOfYear(DateTime.Date(Date.AddYears(KeyDateValue,YearOffset))), Date.StartOfYear(DateTime.Date(Date.AddYears(KeyDateValue,1))), null),
     #"Invoked Custom Function" = Table.AddColumn(Source, "ISOWeek", each ISOWeek([Date])),
@@ -93,4 +94,14 @@ let
     #"Added MMM" = Table.AddColumn(#"Added YTD-1", "Month(MMM)", each Date.ToText([Date],"MMM"))
 in
     #"Added MMM"
+```
+
+### Contiguous Calendar From Source
+```
+// DAX
+Dates =
+CALENDAR (
+    DATE ( YEAR ( MIN ( Sales[Order Date] ) ), 1, 1 ),
+    DATE ( YEAR ( MIN ( Sales[Order Date] ) ), 12, 31 )
+)
 ```
