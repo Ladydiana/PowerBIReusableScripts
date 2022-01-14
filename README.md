@@ -1,7 +1,7 @@
 # PowerBI Reusable Scripts
 
 - [Free Data Sources](#free-data-sources)
-	+ [SDMX] (#SDMX)
+	+ [SDMX](#sdmx)
 - [Display Logged user](#display-logged-user)
 - [DAX Studio - Get all measures](#dax-studio---get-all-measures)
 - [Calendar](#calendar)
