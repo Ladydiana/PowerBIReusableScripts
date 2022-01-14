@@ -1,5 +1,7 @@
 # PowerBI Reusable Scripts
 
+- [Free Data Sources](#free-data-sources)
+	+ [SDMX] (#SDMX)
 - [Display Logged user](#display-logged-user)
 - [DAX Studio - Get all measures](#dax-studio---get-all-measures)
 - [Calendar](#calendar)
@@ -10,7 +12,12 @@
 
 
 -------------------------------------------------
-
+# Free Data Sources
+### SDMX
+1. Website: https://siscc.org/.
+2. Navigate to a dataset (Jan 2022 - not all are optimized at the moment).
+3. Copy the query code via the Developer API.
+3. Connect to the datasets via the PBI SDMX Controller.
 
 # Display Logged user
 ```
