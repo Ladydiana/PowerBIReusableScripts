@@ -26,34 +26,34 @@ Link: https://appsource.microsoft.com/en-us/product/power-bi-visuals/wa200002793
 
 # Design Examples
 ### Arc Diagram
-[Arc Diagram](https://github.com/Ladydiana/PowerBIReusableScripts/blob/main/Charticulator/design/o_arc_diagram.PNG)
+![Arc Diagram](https://github.com/Ladydiana/PowerBIReusableScripts/blob/main/Charticulator/design/o_arc_diagram.PNG)
 ### Bubble Chart
-[Bubble Chart](https://github.com/Ladydiana/PowerBIReusableScripts/blob/main/Charticulator/design/o_bubble_chart.PNG)
+![Bubble Chart](https://github.com/Ladydiana/PowerBIReusableScripts/blob/main/Charticulator/design/o_bubble_chart.PNG)
 ### Bump Chart
-[Bump Chart](https://github.com/Ladydiana/PowerBIReusableScripts/blob/main/Charticulator/design/o_bump_chart.PNG)
+![Bump Chart](https://github.com/Ladydiana/PowerBIReusableScripts/blob/main/Charticulator/design/o_bump_chart.PNG)
 ### Chord Diagram
-[Chord Diagram](https://github.com/Ladydiana/PowerBIReusableScripts/blob/main/Charticulator/design/o_chord_diagram.PNG)
+![Chord Diagram](https://github.com/Ladydiana/PowerBIReusableScripts/blob/main/Charticulator/design/o_chord_diagram.PNG)
 ### Connected Scatterplot
-[Connected Scatterplot](https://github.com/Ladydiana/PowerBIReusableScripts/blob/main/Charticulator/design/o_connected_scatterplot.PNG)
+![Connected Scatterplot](https://github.com/Ladydiana/PowerBIReusableScripts/blob/main/Charticulator/design/o_connected_scatterplot.PNG)
 ### Divergent Bar Chart
-[Divergent Bar Chart](https://github.com/Ladydiana/PowerBIReusableScripts/blob/main/Charticulator/design/o_divergent_bar_chart.PNG)
+![Divergent Bar Chart](https://github.com/Ladydiana/PowerBIReusableScripts/blob/main/Charticulator/design/o_divergent_bar_chart.PNG)
 ### Dot Plot
-[Dot Plot](https://github.com/Ladydiana/PowerBIReusableScripts/blob/main/Charticulator/design/o_dot_plot.PNG)
+![Dot Plot](https://github.com/Ladydiana/PowerBIReusableScripts/blob/main/Charticulator/design/o_dot_plot.PNG)
 ### Dumbbell Chart
-[Dumbbell Chart](https://github.com/Ladydiana/PowerBIReusableScripts/blob/main/Charticulator/design/o_dumbbell_chart.PNG)
+![Dumbbell Chart](https://github.com/Ladydiana/PowerBIReusableScripts/blob/main/Charticulator/design/o_dumbbell_chart.PNG)
 ### Lollipop Chart
-[Lollipop Chart](https://github.com/Ladydiana/PowerBIReusableScripts/blob/main/Charticulator/design/o_lollipop_chart.PNG)
+![Lollipop Chart](https://github.com/Ladydiana/PowerBIReusableScripts/blob/main/Charticulator/design/o_lollipop_chart.PNG)
 ### Nightingale Chart
-[Nightingale Chart](https://github.com/Ladydiana/PowerBIReusableScripts/blob/main/Charticulator/design/o_nightingale_chart.PNG)
+![Nightingale Chart](https://github.com/Ladydiana/PowerBIReusableScripts/blob/main/Charticulator/design/o_nightingale_chart.PNG)
 ### Peacock Chart
-[Peacock Chart](https://github.com/Ladydiana/PowerBIReusableScripts/blob/main/Charticulator/design/o_peacock_chart.PNG)
+![Peacock Chart](https://github.com/Ladydiana/PowerBIReusableScripts/blob/main/Charticulator/design/o_peacock_chart.PNG)
 ### Pictogram
-[Pictogram](https://github.com/Ladydiana/PowerBIReusableScripts/blob/main/Charticulator/design/o_pictogram.PNG)
+![Pictogram](https://github.com/Ladydiana/PowerBIReusableScripts/blob/main/Charticulator/design/o_pictogram.PNG)
 ### Scatterplot
-[Scatterplot](https://github.com/Ladydiana/PowerBIReusableScripts/blob/main/Charticulator/design/o_scatterplot.PNG)
+![Scatterplot](https://github.com/Ladydiana/PowerBIReusableScripts/blob/main/Charticulator/design/o_scatterplot.PNG)
 ### Spiral Bar Chart
-[Spiral Bar Chart](https://github.com/Ladydiana/PowerBIReusableScripts/blob/main/Charticulator/design/o_spiral_bar_chart.PNG)
+![Spiral Bar Chart](https://github.com/Ladydiana/PowerBIReusableScripts/blob/main/Charticulator/design/o_spiral_bar_chart.PNG)
 ### Waffle Chart
-[Bubble Chart](https://github.com/Ladydiana/PowerBIReusableScripts/blob/main/Charticulator/design/o_waffle_chart.PNG)
+![Bubble Chart](https://github.com/Ladydiana/PowerBIReusableScripts/blob/main/Charticulator/design/o_waffle_chart.PNG)
 ### Weather Radial Chart
-[Weather Radial Chart](https://github.com/Ladydiana/PowerBIReusableScripts/blob/main/Charticulator/design/o_weather_radial_chart.PNG)
+![Weather Radial Chart](https://github.com/Ladydiana/PowerBIReusableScripts/blob/main/Charticulator/design/o_weather_radial_chart.PNG)
