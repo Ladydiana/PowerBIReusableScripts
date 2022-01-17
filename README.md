@@ -1,37 +1,41 @@
 # PowerBI Reusable Scripts
 
 - [Free Data Sources](#free-data-sources)
-	+ [SDMX](#sdmx)
-- [Display Logged user](#display-logged-user)
-- [DAX Studio - Get all measures](#dax-studio---get-all-measures)
-- [Calendar](#calendar)
-    + [M Generated Calendar](#m-generated-calendar)
-	+ [Contiguous Calendar From Source](#contiguous-calendar-from-source)
-	+ [Automated Calendar](#automated-calendar)
-- [Last Refresh of the Dataset](#last-refresh-of-the-dataset)
+	* [SDMX](#sdmx)
+- [Code Snippets](#code-snippets)
+	* [Display Logged user](#display-logged-user)
+	* [DAX Studio - Get all measures](#dax-studio---get-all-measures)
+	* [Calendar](#calendar)
+		+ [M Generated Calendar](#m-generated-calendar)
+		+ [Contiguous Calendar From Source](#contiguous-calendar-from-source)
+		+ [Automated Calendar](#automated-calendar)
+	* [Last Refresh of the Dataset](#last-refresh-of-the-dataset)
+- Charticulator(#charticulator)
 
 
 -------------------------------------------------
 # Free Data Sources
-### SDMX
+## SDMX
 1. Website: https://siscc.org/.
 2. Navigate to a dataset (Jan 2022 - not all are optimized at the moment).
 3. Copy the query code via the Developer API.
 3. Connect to the datasets via the PBI SDMX Controller.
 
-# Display Logged user
+-------------------------------------------------
+#Code Snippets
+##Display Logged user
 ```
 // DAX
 _UserLogin = USERNAME()
 ```
 
-# DAX Studio - Get all measures
+##DAX Studio - Get all measures
 ```sql
 SELECT MEASUREGROUP_NAME as TABLE_NAME, MEASURE_NAME, EXPRESSION  FROM $SYSTEM.MDSCHEMA_MEASURES
 WHERE MEASURE_IS_VISIBLE
 ```
 
-# Calendar
+##Calendar
 ### M Generated Calendar
 ```
 let
@@ -123,7 +127,7 @@ CALENDAR (
 Automated Calendar = CALENDARAUTO()
 ```
 
-# Last Refresh of the Dataset
+##Last Refresh of the Dataset
 ```
 // Power Query
 // Generate new date table LastRefreshedUTCNow which refreshes at every dataset refresh
@@ -148,3 +152,5 @@ var TimeFormat = SWITCH( TRUE(),
 )
 return "Last Refresh: " & TimeFormat
 ```
+----------------------------------------------------
+# Charticulator
