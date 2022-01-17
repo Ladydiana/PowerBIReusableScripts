@@ -10,7 +10,7 @@
 		+ [Contiguous Calendar From Source](#contiguous-calendar-from-source)
 		+ [Automated Calendar](#automated-calendar)
 	* [Last Refresh of the Dataset](#last-refresh-of-the-dataset)
-- Charticulator(#charticulator)
+- [Charticulator](#charticulator)
 
 
 -------------------------------------------------
@@ -154,3 +154,4 @@ return "Last Refresh: " & TimeFormat
 ```
 ----------------------------------------------------
 # Charticulator
+For designs and Charticulator details please go to the [Charticulator folder](./Charticulator).
