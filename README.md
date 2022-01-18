@@ -22,20 +22,20 @@
 3. Connect to the datasets via the PBI SDMX Controller.
 
 -------------------------------------------------
-#Code Snippets
-##Display Logged user
+# Code Snippets
+## Display Logged user
 ```
 // DAX
 _UserLogin = USERNAME()
 ```
 
-##DAX Studio - Get all measures
+## DAX Studio - Get all measures
 ```sql
 SELECT MEASUREGROUP_NAME as TABLE_NAME, MEASURE_NAME, EXPRESSION  FROM $SYSTEM.MDSCHEMA_MEASURES
 WHERE MEASURE_IS_VISIBLE
 ```
 
-##Calendar
+## Calendar
 ### M Generated Calendar
 ```
 let
@@ -127,7 +127,7 @@ CALENDAR (
 Automated Calendar = CALENDARAUTO()
 ```
 
-##Last Refresh of the Dataset
+## Last Refresh of the Dataset
 ```
 // Power Query
 // Generate new date table LastRefreshedUTCNow which refreshes at every dataset refresh
