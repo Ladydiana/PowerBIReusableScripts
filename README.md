@@ -10,7 +10,7 @@
 		+ [Contiguous Calendar From Source](#contiguous-calendar-from-source)
 		+ [Automated Calendar](#automated-calendar)
 	* [Last Refresh of the Dataset](#last-refresh-of-the-dataset)
-	* [Measure Selector](#measure-selector)
+	* [Measure Selector Example](#measure-selector-example)
 - [Charticulator](#charticulator)
 
 
