@@ -161,12 +161,12 @@ return "Last Refresh: " & TimeFormat
 		TABLE SCHEMA
 General 2x2 table with Name and Code columns. 
 For the purpose of this example, it is populated statically with "Queued" and "Successful" values.
- _______________________
-| 	Name	|	Code	|
-|___________|___________|
-|   Queued	|	  0		|
-| Successful|	  1 	|
-|___________|___________|
+ _______________________________
+| 		Name	|		Code	|
+|_______________|_______________|
+|   Queued		|	  	0		|
+| 	Successful	|	  	1 		|
+|_______________|_______________|
 
 */
 
