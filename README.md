@@ -129,14 +129,14 @@ Automated Calendar = CALENDARAUTO()
 
 ## Last Refresh of the Dataset
 ```
-// Power Query
+// Step 1: Power Query
 // Generate new date table LastRefreshedUTCNow which refreshes at every dataset refresh
 let
     Source = DateTimeZone.FixedUtcNow()
 in
     Source
 	
-// DAX
+// Step 2: DAX
 TimeFromLastRefreshedDate = 
 var TimeDiff = ABS(DATEDIFF(UTCNOW(),MAX(LastRefreshedUTCNow[LastRefreshedUTCNow]), SECOND))
 // or use this for max date in case this is coming from a table, in order to not be impacted by any filters:
