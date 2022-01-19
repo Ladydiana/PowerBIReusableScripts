@@ -3,6 +3,7 @@
 - [Free Data Sources](#free-data-sources)
 	* [SDMX](#sdmx)
 	* [Aligulac](#aligulac)
+	* [NOAA](#noaa)
 - [Code Snippets](#code-snippets)
 	* [Display Logged user](#display-logged-user)
 	* [DAX Studio - Get all measures](#dax-studio---get-all-measures)
@@ -29,6 +30,10 @@
 - Type: PostgreSQL Database (to be downloaded and connected to locally, there currently is no cloud server to connect to)
 - Size: > 1 Gb
 
+## NOAA
+- Website: https://www.ncei.noaa.gov/access/crn/qcdatasets.html
+- Description: Selected subsets of monthly, daily, hourly and sub-hourly (5-minute) USCRN/USRCRN.
+- Type: Files as .txt, 
 -------------------------------------------------
 # Code Snippets
 ## Display Logged user
