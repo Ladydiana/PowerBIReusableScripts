@@ -2,6 +2,7 @@
 
 - [Free Data Sources](#free-data-sources)
 	* [SDMX](#sdmx)
+	* [Aligulac](aligulac)
 - [Code Snippets](#code-snippets)
 	* [Display Logged user](#display-logged-user)
 	* [DAX Studio - Get all measures](#dax-studio---get-all-measures)
@@ -21,6 +22,12 @@
 2. Navigate to a dataset (Jan 2022 - not all are optimized at the moment).
 3. Copy the query code via the Developer API.
 3. Connect to the datasets via the PBI SDMX Controller.
+
+## Aligulac
+Website: http://aligulac.com/about/db/
+Description: StarCraft 2 Progaming Statistics and Predictions
+Type: PostgreSQL Database (to be downloaded and connected to locally, there currently is no cloud server to connect to)
+Size: > 1 Gb
 
 -------------------------------------------------
 # Code Snippets
